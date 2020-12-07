@@ -1,0 +1,23 @@
+.copy {
+    max-width: 800px;
+
+    font-size: calc(0.8rem + 0.8vw);
+
+}
+
+.bg-img-vertical {
+
+
+    right: 0;
+
+}
+
+.position {
+    /*    position: absolute;*/
+    right: 22vw;
+
+    width: 40vw;
+    height: 28vw;
+
+
+}

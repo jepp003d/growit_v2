@@ -1,0 +1,365 @@
+.copy {
+    max-width: 700px;
+    font-size: calc(0.8rem + 0.6vw);
+    /*    border: 2px solid white;*/
+}
+
+body {
+    background-color: #FFFEF7;
+    visibility: hidden;
+
+}
+
+.section2,
+.section1,
+.section3,
+.section4,
+.section5 {
+    /*    margin-bottom: 300px !important;*/
+    margin-bottom: 100px !important;
+
+
+}
+
+
+
+.btn {
+
+    padding: 0;
+    font-weight: 400;
+    font-size: calc(0.8rem + 0.6vw);
+    background-color: transparent;
+    border: none;
+    border-radius: none;
+    color: black;
+
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.arrow {
+    font-weight: 200;
+    transform: scaleX(2);
+
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #A3A162;
+    border-color: transparent;
+    border: none;
+    font-weight: 400;
+}
+
+.bg-img-vertical {
+    right: 0;
+}
+
+.position-bag {
+    width: 50%;
+    padding-top: 750px;
+    /*    left: 5vw;*/
+    margin-right: 40vw;
+}
+
+
+.position2 {
+    width: 50%;
+    padding-top: 120px;
+    /*    left: 5vw;*/
+    margin-right: 40vw;
+}
+
+.position3 {
+    width: 50%;
+    padding-top: 620px;
+    /*    left: 5vw;*/
+    margin-right: 40vw;
+}
+
+.position4 {
+    width: 50%;
+    padding-top: 90px;
+    /*    left: 5vw;*/
+    margin-right: 40vw;
+}
+
+.position5 {
+    width: 50%;
+    padding-top: 620px;
+    /*    left: 5vw;*/
+    margin-right: 40vw;
+}
+
+
+
+
+
+
+
+.splash_h1 {
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: helvetica;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: helvetica;
+    font-weight: 100;
+}
+
+.quote {
+    font-family: helvetica;
+    font-weight: 600;
+    font-size: calc(2rem + 1.5vw);
+    margin: 0;
+}
+
+.bold {
+    font-weight: 400;
+}
+
+.splash {
+    background-image: url(img/landing/mobile/sektion1/mb-bw-baggrund.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+/*----------MEDIA QUERIES------------*/
+
+@media screen and (min-width: 436px) {
+    .position-bag {
+        /*        right: 22vw;*/
+        /*        width: 20%;*/
+        /*        height: 28vw;*/
+        padding-top: 900px;
+        /*        margin-right: 340px;*/
+
+    }
+
+    .position2 {
+        width: 50%;
+        /*    padding-top: 750px;*/
+        /*    left: 5vw;*/
+        margin-right: 40vw;
+    }
+
+    .position3 {
+        width: 50%;
+        padding-top: 700px;
+        /*    left: 5vw;*/
+        margin-right: 40vw;
+    }
+
+    .position4 {
+        width: 50%;
+        padding-bottom: 60px;
+        /*    left: 5vw;*/
+        margin-right: 40vw;
+    }
+
+    .position5 {
+        width: 50%;
+        padding-top: 600px;
+        /*    left: 5vw;*/
+        margin-right: 40vw;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .splash-img {
+        width: 50%;
+        margin: 0 auto;
+        /*
+        margin-bottom: 500px !important;
+        margin-top: 500px !important;
+*/
+    }
+
+
+
+    .section1 {
+        margin-top: 200px !important;
+    }
+
+
+
+
+    .position-bag {
+        /*        right: 22vw;*/
+        /*        width: 20%;*/
+        /*        height: 28vw;*/
+        padding-top: 900px;
+        /*        margin-right: 340px;*/
+
+    }
+
+    .position2 {
+        width: 50%;
+        padding-top: 0;
+        /*    left: 5vw;*/
+        margin-right: 40vw;
+    }
+
+    .position3 {
+        width: 50%;
+        padding-top: 750px;
+        /*    left: 5vw;*/
+        margin-right: 40vw;
+    }
+
+    .position4 {
+        width: 50%;
+        padding-top: 0;
+        /*    left: 5vw;*/
+        margin-right: 40vw;
+    }
+
+    .position5 {
+        width: 50%;
+        padding-top: 900px;
+        /*    left: 5vw;*/
+        margin-right: 40vw;
+    }
+}
+
+@media screen and (min-width: 862px) {
+    .position-bag {
+        /*        right: 22vw;*/
+        /*        width: 20%;*/
+        /*        height: 28vw;*/
+        padding-top: 950px;
+        /*        margin-right: 340px;*/
+
+    }
+
+    .position2 {
+        width: 50%;
+        /*    padding-top: 750px;*/
+        /*    left: 5vw;*/
+        margin-right: 40vw;
+    }
+
+    .position3 {
+        width: 50%;
+        padding-top: 850px;
+        /*    left: 5vw;*/
+        margin-right: 40vw;
+    }
+
+    .position4 {
+        width: 50%;
+
+        /*    left: 5vw;*/
+        margin-right: 40vw;
+    }
+
+    .position5 {
+        width: 50%;
+        padding-top: 900px;
+        /*    left: 5vw;*/
+        margin-right: 40vw;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .position3 {
+        /*        right: 22vw;*/
+
+        /*        height: 28vw;*/
+        padding-top: 900px;
+        /*        margin-right: 340px;*/
+
+    }
+
+
+
+    @media screen and (min-width: 992px) {
+
+        .splash {
+            /*        background-image: url(img/landing/splash/splash-bg.png);*/
+            background-image: none;
+            background-position: bottom;
+            background-repeat: no-repeat;
+            width: 100%;
+        }
+
+        .splash-front {
+            /*            padding-top: 100px !important;*/
+            width: 70%;
+        }
+
+        .splash-bg {
+            width: 100%;
+            left: 0;
+            padding: 0 !important;
+
+        }
+
+        .position-bag {
+            /*        right: 22vw;*/
+            width: 20%;
+            /*        height: 28vw;*/
+            padding-top: 300px;
+            margin-right: 20vw;
+
+        }
+
+        .position2 {
+            width: 20%;
+            padding-top: 0;
+            padding-bottom: 300px;
+            /*    left: 5vw;*/
+            margin-right: 70vw;
+        }
+
+        .position3 {
+            width: 20%;
+            padding-top: 400px;
+            /*    left: 5vw;*/
+            margin-right: 20vw;
+        }
+
+        .position4 {
+            width: 20%;
+            padding-top: 0;
+            padding-bottom: 300px;
+            /*    left: 5vw;*/
+            margin-right: 70vw;
+        }
+
+        .position5 {
+            width: 20%;
+            padding-top: 400px;
+            /*    left: 5vw;*/
+            margin-right: 20vw;
+
+        }
+
+        .section2,
+        .section1,
+        .section3,
+        .section4,
+        .section5 {
+            margin-bottom: 300px !important;
+        }
+
+        .container-fluid {
+            padding-left: 100px !important;
+            padding-right: 100px !important;
+        }
+    }
