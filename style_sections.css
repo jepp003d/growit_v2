@@ -1,0 +1,179 @@
+body {
+    background-color: #EDEAE7;
+
+}
+
+.container {
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+/*
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+*/
+
+.row > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 0px !important;
+    padding-left: calc(var(--bs-gutter-x)/ 2);
+    margin-top: var(--bs-gutter-y);
+
+}
+
+.section_1_absolute {
+    width: 50%;
+    top: 200vw;
+}
+
+h1 {
+    margin: 0 !important;
+}
+
+h2 {
+    margin-top: 3rem !important;
+
+}
+
+p {
+    margin-bottom: 3rem;
+}
+
+.quote-translate {
+    /*    bottom: 10vw;*/
+    transform: translateY(50px);
+
+}
+
+.quote-translate1 {
+    /*    bottom: 10vw;*/
+
+    /*    transform: translate3d(-1268.85px, 0px, 0px);*/
+    top: 50vw;
+}
+
+.quote-translate h1 {
+    width: 400vw;
+    font-size: 5rem;
+
+}
+
+.quote-translate1 h1 {
+    width: 400vw;
+    font-size: 5rem;
+    color: white;
+
+
+}
+
+.splash {}
+
+.splash .row {
+    overflow: hidden;
+}
+
+.section_3 .row {
+    overflow: hidden;
+}
+
+.quote {}
+
+.quote h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+
+
+
+}
+
+
+
+
+/*
+.row > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-top: var(--bs-gutter-y);
+}
+*/
+
+
+
+/*
+section div:nth-child(3) {
+    padding-top: 50px;
+}
+*/
+
+.s1_bg {
+    background-color: #909D96;
+}
+
+.s2_bg {
+    background-color: #A3A162;
+}
+
+.s3_bg {
+    background-color: #B9BBC6;
+}
+
+.s4_bg {
+    background-color: #FFEEC0;
+}
+
+.s5_bg {
+    background-color: #917B6C;
+}
+
+
+
+
+
+
+/*
+.comparisonSection {
+    position: relative;
+    padding-bottom: 56.25%;
+
+}
+
+.comparisonImage {
+    width: 100%;
+    height: 100%;
+}
+
+.afterImage {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    transform: translate(100%, 0px);
+}
+
+.afterImage img {
+    transform: translate(-100%, 0px);
+}
+
+.comparisonImage img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+*/

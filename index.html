@@ -15,15 +15,16 @@
 
 <body>
 
-    <section class="splash mb-3 hue0" data-scrollcolor="#FFFEF7">
+    <section class="splash mb-3 hue0 comparisonSection" data-scrollcolor="#FFFEF7">
 
         <div class="container-fluid">
             <div class="row">
-                <h1 class="splash_h1">BRING COLOR BACK TO EARTH</h1>
-                <img class="align-self-center img-fluid py-5 splash-img position-absolute splash-bg d-none d-lg-block" src="img/landing/splash/01018.jpg" alt="">
-                <img class="align-self-center img-fluid pt-5 mb-5 splash-img position-relative splash-front" src="img/landing/splash/splash-illustrator1.png" alt="">
-
-
+                <div class="comparisonImage beforeImage">
+                    <img class="align-self-center img-fluid py-5 splash-img splash-bg d-none d-lg-block" src="img/landing/splash/bg_bw.jpg" alt="">
+                </div>
+                <div class="comparisonImage afterImage">
+                    <img class="align-self-center img-fluid py-5 splash-img splash-bg d-none d-lg-block" src="img/landing/splash/01018.jpg" alt="">
+                </div>
             </div>
         </div>
     </section>
@@ -165,6 +166,38 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
     <script>
         gsap.registerPlugin(ScrollTrigger);
+
+
+        gsap.utils.toArray(".comparisonSection").forEach(section => {
+            let tl = gsap.timeline({
+                scrollTrigger: {
+                    trigger: section,
+                    start: "center center",
+                    // makes the height of the scrolling (while pinning) match the width, thus the speed remains constant (vertical/horizontal)
+                    end: () => "+=" + section.offsetWidth,
+                    scrub: true,
+                    pin: true,
+                    anticipatePin: 1
+                },
+                defaults: {
+                    ease: "none"
+                }
+            });
+            // animate the container one way...
+            tl.fromTo(section.querySelector(".afterImage"), {
+                    xPercent: 100,
+                    x: 0
+                }, {
+                    xPercent: 0
+                })
+                // ...and the image the opposite way (at the same time)
+                .fromTo(section.querySelector(".afterImage img"), {
+                    xPercent: -100,
+                    x: 0
+                }, {
+                    xPercent: 0
+                }, 0);
+        });
 
         //        var rellax = new Rellax(".rellax", {
         // center: true,
@@ -596,6 +629,11 @@
                 });
             });
         });
+
     </script>
     <!--    <script src="js/scripts.js"></script>-->
-</body></html>
+
+
+</body>
+
+</html>
