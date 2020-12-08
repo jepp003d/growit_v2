@@ -3,6 +3,11 @@ body {
 
 }
 
+@font-face {
+    font-family: manropeLight;
+    src: url(fonts/web_manrope/Manrope-light.woff);
+}
+
 .container {
     margin-right: 0 !important;
     padding-right: 0 !important;
@@ -42,15 +47,20 @@ body {
 
 h1 {
     margin: 0 !important;
+
+
 }
 
 h2 {
     margin-top: 3rem !important;
+    font-family: raleway;
+    font-weight: bold;
 
 }
 
 p {
     margin-bottom: 3rem;
+    font-family: manropeLight;
 }
 
 .quote-translate {
